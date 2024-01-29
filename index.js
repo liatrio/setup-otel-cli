@@ -5,7 +5,7 @@
 
 const core = require('@actions/core');
 
-const setup = require('./lib/setup-tofu');
+const setup = require('./lib/setup-otel-cli');
 
 (async () => {
   try {
