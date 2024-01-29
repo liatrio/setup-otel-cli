@@ -1,6 +1,6 @@
-name: 'OpenTofu - Setup Tofu'
-description: 'Sets up OpenTofu CLI in your GitHub Actions workflow.'
-author: 'OpenTofu'
+name: 'OpenTofu - Setup OTel CLI'
+description: 'Sets up OTel CLI in your GitHub Actions workflow.'
+author: 'Mitchell'
 inputs:
   cli_config_credentials_hostname:
     description: 'The hostname of a Terraform Cloud/Enterprise instance to place within the credentials block of the OpenTofu CLI configuration file. Defaults to `app.terraform.io`.'
